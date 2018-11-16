@@ -336,9 +336,7 @@
 
         <v-simple-select
           class="select"
-          v-model="
-            relationInfoM2M[currentM2MIndex === 0 ? 1 : 0].collection_one
-          "
+          v-model="relationInfoM2M[currentM2MIndex === 0 ? 1 : 0].collection_one"
         >
           <option
             v-for="{ collection } in collections"
